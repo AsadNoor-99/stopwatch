@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="sh"> stop watch</div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+    <div class="m1">
+     <div class="main" id="hour">0</div><span class="s1">:</span>
+    <div class="main" id="min">0</div><span class="s1">:</span>
+    <div class="main" id="sec">0</div><span class="s1">:</span>
+    <div class="main" id="msec">0</div>
+    </div>
+   </div>
+
+   <div class="col-md-3"></div>
+
+</div>
+
+   </div>
+   <div class="m2">
+       <button class="btn1" onclick="start()" id=" b1"> start</button>
+       <button class="btn1" onclick="stop()" id="b2">pause</button>
+       <button class="btn1" onclick="reset()" id=" b3"> Reset</button>
+       
+   </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
